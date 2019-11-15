@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\BS-Dev\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\BS-Dev\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\BS-Dev\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\BS-Dev\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_GrpcServer.-225424916.00" t="ExcludeRecursive" />
+    <e p="C:\Users\BS-Dev\Desktop\simple-grpc-communication\GrpcServer" t="IncludeFlat">
+      <e p="GrpcServer" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Game" t="Include">
+          <e p="PokerGenerator.cs" t="Include" />
+        </e>
+        <e p="GrpcServer.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Greet.cs" t="Include" />
+              <e p="GreetGrpc.cs" t="Include" />
+              <e p="GrpcServer.AssemblyInfo.cs" t="Include" />
+              <e p="Pokergame.cs" t="Include" />
+              <e p="PokergameGrpc.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Protos" t="Include">
+          <e p="greet.proto" t="Include" />
+          <e p="pokergame.proto" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="GreeterService.cs" t="Include" />
+          <e p="PokerGameService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="GrpcServer.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

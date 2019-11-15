@@ -1,0 +1,46 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "WebApplication";
+
+package Poker;
+
+service PokerGame{
+    rpc GetPokerHand (RequestHandModel) returns (HandResponseModel);
+}
+
+message CardModel{
+    enum Kind{
+        HEARTS = 0;
+        CLUBS = 1;
+        DIAMONDS = 2;
+        SPADES = 3;
+    }
+    
+    enum Value{
+        ACE = 0;
+        TWO = 1;
+        THREE = 2;
+        FOUR = 3;
+        FIVE = 4;
+        SIX = 5;
+        SEVEN = 6;
+        EIGHT = 7;
+        NINE = 8;
+        TEN = 9;
+        JACK = 10;
+        QUEEN = 11;
+        KING = 12;
+    }
+    
+    Kind kind = 1;
+    Value value = 2;
+
+}
+
+message RequestHandModel{
+    
+}
+
+message HandResponseModel{
+    repeated CardModel card = 1;
+}

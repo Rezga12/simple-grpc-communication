@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.0/Pokergame.cs \
+obj\Debug\netcoreapp3.0/PokergameGrpc.cs: Protos/pokergame.proto
